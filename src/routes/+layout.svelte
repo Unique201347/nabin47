@@ -3,6 +3,7 @@
 
 	import Header from '$lib/ui/header/header.svelte'
 	import '../styles/styles.scss'
+	import Footer from '$lib/ui/footer.svelte'
 
 	export let data
 </script>
@@ -16,6 +17,8 @@
 				<slot />
 			</div>
 		{/key}
+
+		<Footer />
 	</div>
 </div>
 
